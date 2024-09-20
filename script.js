@@ -28,6 +28,7 @@ async function getData() {
         const result = document.getElementById("result");
         result.innerHTML += `<li>${json[i].title}</li>`;
     }
+    console.log("This is from Git")
 }
 
 getData()
