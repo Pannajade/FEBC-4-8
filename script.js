@@ -29,6 +29,7 @@ async function getData() {
         result.innerHTML += `<li>${json[i].title}</li>`;
     }
     console.log("This is from Git")
+    console.log("this is from bracnh feature")
 }
 
 getData()
